@@ -99,7 +99,7 @@ export function Layout() {
               </li>
             </ul>
             <a
-              href="https://www.paypal.com/donate/?hosted_button_id=X6TTVDKC537Y6"
+              href="https://www.paypal.com/donate/?hosted_button_id=X3QXZUKS4LVQ8"
               className="btn btn-primary-ngo"
               target="_blank"
               rel="noopener noreferrer"

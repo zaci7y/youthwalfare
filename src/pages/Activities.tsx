@@ -349,7 +349,7 @@ export function Activities() {
             </p>
             <div className="d-flex gap-3 justify-content-center flex-wrap mt-4">
               <a
-                href="https://www.paypal.com/donate/?hosted_button_id=X6TTVDKC537Y6"
+                href="https://www.paypal.com/donate/?hosted_button_id=X3QXZUKS4LVQ8"
                 className="btn btn-primary-ngo btn-lg"
                 target="_blank"
                 rel="noopener noreferrer"

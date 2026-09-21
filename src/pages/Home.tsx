@@ -12,7 +12,7 @@ import {
   galleryItems,
   faqItems,
 } from '../data/siteData';
-import donationQrUrl from '@/assets/donation.webp';
+import donationQrUrl from '@/assets/donation.jpeg';
 import { activities } from './Activities';
 
 const serviceSections = [
@@ -86,7 +86,7 @@ export function Home() {
               </p>
               <div className="hero-actions">
                 <a
-                  href="https://www.paypal.com/donate/?hosted_button_id=X6TTVDKC537Y6"
+                  href="https://www.paypal.com/donate/?hosted_button_id=X3QXZUKS4LVQ8"
                   className="btn btn-primary-ngo btn-lg"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -731,7 +731,7 @@ export function Home() {
                       <div className="d-flex flex-column flex-sm-row justify-content-between align-items-sm-center gap-2">
                         <strong>{cause.progress}% Funded</strong>
                         <a
-                          href="https://www.paypal.com/donate/?hosted_button_id=X6TTVDKC537Y6"
+                          href="https://www.paypal.com/donate/?hosted_button_id=X3QXZUKS4LVQ8"
                           className="btn btn-sm btn-primary-ngo"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -850,7 +850,7 @@ export function Home() {
               </div>
               <div className="col-lg-4 text-lg-end">
                 <a
-                  href="https://www.paypal.com/donate/?hosted_button_id=X6TTVDKC537Y6"
+                  href="https://www.paypal.com/donate/?hosted_button_id=X3QXZUKS4LVQ8"
                   className="btn btn-light btn-lg rounded-pill px-4 me-2 mb-2"
                   target="_blank"
                   rel="noopener noreferrer"
