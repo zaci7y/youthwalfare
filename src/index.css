@@ -996,3 +996,109 @@ h6,
     padding: 0.9rem;
   }
 }
+
+/* Donate page */
+.donate-page {
+  background: linear-gradient(180deg, #f4f9f6 0%, #ffffff 70%);
+}
+.donate-panel {
+  background: #fff;
+  border: 1px solid var(--ngo-border);
+  border-radius: 24px;
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  box-shadow: var(--ngo-shadow);
+}
+.donate-panel h2,
+.donate-panel h3 {
+  color: var(--ngo-dark);
+}
+.donate-method-note {
+  color: #64746b;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+.donate-purpose-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+.donate-purpose-grid > div {
+  display: grid;
+  grid-template-columns: 38px 1fr;
+  gap: 0 0.65rem;
+  padding: 0.9rem;
+  border: 1px solid #e1eee4;
+  border-radius: 16px;
+  background: #f5faf6;
+}
+.donate-purpose-grid i {
+  grid-row: 1 / 3;
+  color: var(--ngo-green);
+  font-size: 1.4rem;
+}
+.donate-purpose-grid strong {
+  color: var(--ngo-dark);
+}
+.donate-purpose-grid span {
+  color: #69786d;
+  font-size: 0.87rem;
+}
+.donate-qr-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.donate-page-qr {
+  display: block;
+  width: min(100%, 275px);
+  aspect-ratio: 1;
+  object-fit: contain;
+  margin: 1rem auto;
+  border: 10px solid #fff;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(20, 37, 25, 0.15);
+}
+.donate-detail-list {
+  margin: 1.25rem 0 0;
+}
+.donate-detail-list > div {
+  display: grid;
+  grid-template-columns: minmax(120px, 38%) 1fr;
+  gap: 0.9rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--ngo-border);
+}
+.donate-detail-list > div:last-child {
+  border-bottom: 0;
+}
+.donate-detail-list dt {
+  color: #64746b;
+  font-weight: 600;
+}
+.donate-detail-list dd {
+  margin: 0;
+  color: var(--ngo-dark);
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+.donate-detail-list .donate-number {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.03em;
+}
+.donate-bank-note {
+  padding: 1.1rem 1.3rem;
+  border-radius: 16px;
+  background: #edf7f0;
+  color: var(--ngo-dark);
+}
+@media (max-width: 575.98px) {
+  .donate-purpose-grid {
+    grid-template-columns: 1fr;
+  }
+  .donate-detail-list > div {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+}

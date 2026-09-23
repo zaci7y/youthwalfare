@@ -7,6 +7,7 @@ import { Team } from './pages/Team';
 import { FAQ } from './pages/FAQ';
 import { Contact } from './pages/Contact';
 import { Activities } from './pages/Activities';
+import { Donate } from './pages/Donate';
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
         <Route path="about" element={<About />} />
         <Route path="services" element={<Services />} />
         <Route path="activities" element={<Activities />} />
+        <Route path="donate" element={<Donate />} />
         <Route path="team" element={<Team />} />
         <Route path="faq" element={<FAQ />} />
         {/* <Route path="blog" element={<Blog />} /> — hidden for now */}
